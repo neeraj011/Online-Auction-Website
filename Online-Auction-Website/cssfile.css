@@ -1,0 +1,294 @@
+{
+    color:white;
+}
+.spacing
+{
+    margin: 0px 0px 0px 80px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+nav{
+    max-height: 160px;
+    padding:0.5em;
+    margin:20;
+}
+
+.trheight{
+    height: 12em;
+    width: auto;
+}
+
+li input [type=text,password]{
+    border-radius: 10px;
+    border: 2px solid #73AD21;
+    padding:0px;
+    height: 3em;
+
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+
+    overflow: hidden;
+   background-color: white;
+
+}
+
+.li {
+    float: right;
+    padding-right: 20px;
+    padding-top: 30px;
+
+}
+.ul2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color:none;
+    text-decoration: none;
+    color: white;
+    }
+
+ li a:hover {
+    background-color: #111;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+}
+
+.buttonp     /*Login page: submit button */
+{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    width: 12em;
+    height: 4em;
+}
+
+#div2
+{
+    overflow: hidden;
+}
+
+
+#slider img
+{
+    width: 20%;
+    height:320px;
+    float:left;
+}
+
+
+#slider
+{
+    position: relative;
+    width: 500%;
+    margin:0;
+    left:0;
+    text-align:left;
+    font-size:0;
+    animation-name: slider;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes slider
+{
+    0%
+    {
+        left:0;
+    }
+    20%
+    {
+        left:0;
+    }
+    25%
+    {
+        left: -100%;
+    }
+    45%
+    {
+        left: -100%;
+    }
+    50%
+    {
+        left: -200%;
+    }
+    70%
+    {
+        left: -200%;
+    }
+    75%
+    {
+        left: -300%;
+    }
+    95%
+    {
+        left: -300%;
+    }
+    100%
+    {
+        left: -400%;
+    }
+}
+
+.button   /* Home-Page : Join button */
+{
+background-color: #ff9948;
+    
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    line-height: 1.35;
+    padding: 10px 30px;
+    vertical-align: bottom;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0% 0% 4% 45%;
+}
+
+.button1
+{
+background-color: #fff;
+    
+    font-size: 18px;
+    color: #3d4d65;
+    display: inline-block;
+    line-height: 1.35;
+    padding: 0px 0px;
+    vertical-align: bottom;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0% 0% 4% 45%;
+}
+#h { color:#fff; 
+    font-size:50px; 
+    font-weight:700; 
+    text-transform:uppercase;
+     line-height:1;
+      margin:0 0 5px; 
+font-family: "Roboto Condensed";
+  }
+#login  /* Login page: form, */
+{
+        width:50%; 
+        background-color: lightblue; 
+        border-radius:5px;
+         border:1px solid #5a5492;
+          padding:25px 25px 20px 25px ; 
+          margin: 5% 20%; 
+          color:#fff; 
+        
+      
+}
+#text
+{
+    border-radius: 5px; /* login form,se7ll.php form  */
+    width: 300px;
+    height: 40px;
+
+
+}
+#text1
+{
+    border-radius: 5px; /* login form,se7ll.php form  */
+    width: 300px;
+    height: 70px;
+
+
+}
+#butt
+{
+    background-color: #ff9948;
+    width: 180px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+}
+#contact
+{
+        
+          font-size: 20px;
+         width:900px;
+          align:center;
+        text-align:center; 
+
+
+}
+#add
+{
+     float:right;
+        
+        
+        border-radius:5px;
+         
+          padding:25px 25px 20px; 
+          margin:80px 0; 
+          color:; 
+        text-align:center; 
+
+}
+#ed
+{
+    
+    text-align: center;
+    font-size: 20px;
+    padding:10px 10px 10px 10px;
+
+}
+header,footer
+{
+     background-color:#3d4d65;
+     color:#fff;
+     padding: 1em;
+     text-align: center;
+}
+div.container
+{
+    width:100%;
+    
+}
+nav {
+    max-height: 160px;
+    padding: 1em;
+    margin:20;
+}
+.circ
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.log
+{
+    height:25px;
+    width:25px;
+}
